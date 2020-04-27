@@ -1,1 +1,1 @@
-# ffxiv-relic-tracker
+# FFXIV Relic Tracker

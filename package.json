@@ -1,0 +1,18 @@
+{
+  "name": "ffxiv-relic-tracker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Zyian/ffxiv-relic-tracker.git",
+  "author": "Adrian <adrian@zyian.dev>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "watch": "parcel public/index.html"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
