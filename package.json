@@ -10,11 +10,16 @@
     "parcel-bundler": "^1.12.4",
     "postcss-fontpath": "^1.0.0",
     "postcss-modules": "^2.0.0",
-    "tailwindcss": "^1.3.5"
+    "tailwindcss": "^1.3.5",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "prettier": "^2.0.5"
   },
   "scripts": {
-    "watch": "parcel public/index.html",
-    "clean": "rm -rf dist .cache"
+    "start": "parcel public/index.html",
+    "clean": "rm -rf dist .cache",
+    "build": "parcel build public/index.html"
   },
   "dependencies": {
     "react": "^16.13.1",
