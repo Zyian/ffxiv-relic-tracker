@@ -8,3 +8,4 @@ Current Supported Expansion: **Shadowbringers**
 - [Parcel](https://parceljs.org/)
 - [TailwindCSS](https://tailwindcss.com/)
 - [React](https://reactjs.org/)
+- [Google Cloud Platform](https://cloud.google.com/)
