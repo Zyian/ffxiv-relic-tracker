@@ -1,13 +1,13 @@
 import React from "react";
 import WeaponCard from "./weaponCard";
 
-function WeaponGrid() {
-  let filler = ["", "", "", ""];
+import weapondata from "./shadowbringers_t1_weapons.json";
 
+function WeaponGrid() {
   return (
-    <div className="flex">
-      {filler.map(() => {
-        return <WeaponCard />;
+    <div className="flex flex-wrap ml-8">
+      {weapondata.map((w) => {
+        return <WeaponCard weapon={w} />;
       })}
     </div>
   );

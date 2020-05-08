@@ -2,12 +2,14 @@ import React from "react";
 
 import Nav from "./nav/Nav";
 import Showcase from "./showcase/showcase";
+import Footer from "./footer/footer";
 
 function App() {
   return (
-    <div className="bg-gray-700 h-screen">
+    <div className="bg-gray-700">
       <Nav />
-      <Showcase className="my-24" />
+      <Showcase />
+      <Footer />
     </div>
   );
 }
