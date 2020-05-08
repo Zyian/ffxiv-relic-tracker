@@ -7,7 +7,7 @@ function WeaponGrid() {
   return (
     <div className="flex flex-wrap ml-8">
       {weapondata.map((w) => {
-        return <WeaponCard weapon={w} />;
+        return <WeaponCard weapon={w} key={w.item.name} />;
       })}
     </div>
   );
